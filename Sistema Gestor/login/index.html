@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Gestor</title>
+    <link rel="stylesheet" href="style.css"> <!--- importar o css-->
+</head>
+<body>
+    <div class="main-login"> <!---dividi em divs as duas telas, a da esquerda com o titulo e a imagem e a direita com aba de login-->
+        <div class="left-login"> <!--primeira div (div da esquerda)-->
+            <h1>Faça seu login <br> E Realize suas Demandas</h1> <!-- TITULO DA PAGINA-->
+            <img src="arvore.svg" class="left-login-image" alt="Arvore"> <!--- IMAGEM ANIMADA DA ARVORE-->
+        </div>
+
+        <div class="right-login"> <!--- SEGUNDA DIV (TELA DA DIREITA)-->
+            
+            <div class="card-login"> <!--DIV DO CARD DE LOGIN-->
+                <h1>LOGIN</h1>
+                <div class="textfield"> <!--ABA DE USUARIO-->
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+
+                </div>
+                <div class="textfield"> <!--ABA DE SENHA-->
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+
+                <button class="btn-login">Login</button> <!-- BOTÃO DE LOGIN-->
+                
+            </div>
+        </div>
+
+
+    </div> <!--FECHAMENTO DA DIV PRINCIPAL COM AS DUAS TELAS-->
+    
+</body>
+</html>

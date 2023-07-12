@@ -1,0 +1,108 @@
+
+
+.topo{
+    display: flex;
+    border: 3px;
+}
+.topo-um{
+    background-color: #201b2c;
+    width: 11vw;
+    border: 2px;
+    
+    
+
+}
+.topo-um h1{
+    background-color: #514869;
+    color: azure ;
+
+    border-radius: 10px;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 7px;
+    margin-right: 2px;
+
+}
+.topo-dois{
+    background-color: #514869;
+    width: 89vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.main-pri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.left-nav{
+    width: 11vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: #201b2c;
+}
+.left-nav h1{
+    font-size: 20px;
+    color: aliceblue;
+}
+.arvore-img{
+    width: 8vw;
+}
+
+
+.center-column{
+    width: 89vw;
+    height: 100vh;
+    background-color:#2f2841;
+   
+
+}
+
+.menu-um{
+    display: flex;
+
+}
+
+.projetos{
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #514869;
+}
+
+.eventos{
+    width: 30%;
+    margin: 20px;
+    background-color:#514869;
+}
+
+.menu-dois{
+    display: flex;
+}
+
+.clientes-recentes {
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #514869;
+
+}
+
+.aniv{
+    width: 30%;
+    margin: 20px;
+    background-color: #514869;
+
+}
+
